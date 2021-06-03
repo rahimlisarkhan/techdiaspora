@@ -806,6 +806,8 @@ div#preloader {
 
 .single-team-member {
   border: 1px solid #ddd;
+  width: 95%;
+  height:400px;
 }
 
 .team-left-text h4 {
@@ -892,6 +894,14 @@ div#preloader {
 
 .team-img {
   position: relative;
+}
+
+.team-top{
+  margin-top: 1rem;
+}
+
+.team-top-margin{
+  margin-top: 4.2rem;
 }
 
 .team-img img{
