@@ -1125,7 +1125,14 @@ box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.438)}
   height: 100%;
   position: relative;
 }
+.awesome-img img{
+  width: 100%;
+  height: auto;
+} 
 
+.vbox-content img{
+  height:600px;
+}
 .awesome-img>a {
   display: block;
   position: relative;
@@ -1767,12 +1774,17 @@ box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.438)}
 
 .footer-logo {
   padding-bottom: 10px;
-
+transition: all .2s;
 }
 
 .footer-logo img{
   width:130px !important;
   margin-right:8px;
+  cursor:pointer;
+
+}
+.footer-logo :hover{
+transform: scale(.98);
 }
 
 .footer-logo sub{
